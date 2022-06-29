@@ -27,7 +27,8 @@
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="BAi-R8-v4O" kind="custom" id="pMV-4n-kp7"/>
+                                    <action selector="startButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YUs-To-Vhn"/>
+                                    <segue destination="BAi-R8-v4O" kind="custom" id="aRQ-F7-wy2"/>
                                 </connections>
                             </button>
                         </subviews>
