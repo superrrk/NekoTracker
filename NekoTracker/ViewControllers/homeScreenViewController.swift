@@ -13,6 +13,8 @@ class homeScreenViewController: UIViewController {
     @IBOutlet weak var imageViewCharacter: UIImageView!
     @IBOutlet weak var logoNamePlaceholder: UILabel!
     
+    @IBOutlet weak var messagePlaceholder: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
