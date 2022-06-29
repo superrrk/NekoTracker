@@ -15,6 +15,7 @@
 		BD0FE5BA286B87B20085DB62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0FE5B9286B87B20085DB62 /* Assets.xcassets */; };
 		BD0FE5BD286B87B20085DB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0FE5BB286B87B20085DB62 /* LaunchScreen.storyboard */; };
 		BD0FE5C5286B955B0085DB62 /* homeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0FE5C4286B955B0085DB62 /* homeScreenViewController.swift */; };
+		BD246600286CD97D0022D9EA /* FoodTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2465FF286CD97D0022D9EA /* FoodTrackerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BD0FE5BC286B87B20085DB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD0FE5BE286B87B20085DB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD0FE5C4286B955B0085DB62 /* homeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreenViewController.swift; sourceTree = "<group>"; };
+		BD2465FF286CD97D0022D9EA /* FoodTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BD0FE5C7286B96AE0085DB62 /* ViewControllers */,
 				BD0FE5AD286B87B10085DB62 /* AppDelegate.swift */,
 				BD0FE5B3286B87B10085DB62 /* Main.storyboard */,
+				BD2465FF286CD97D0022D9EA /* FoodTrackerViewController.swift */,
 				BD0FE5AF286B87B10085DB62 /* SceneDelegate.swift */,
 				BD0FE5B9286B87B20085DB62 /* Assets.xcassets */,
 				BD0FE5BB286B87B20085DB62 /* LaunchScreen.storyboard */,
@@ -157,6 +160,7 @@
 				BD0FE5B8286B87B10085DB62 /* NekoTracker.xcdatamodeld in Sources */,
 				BD0FE5AE286B87B10085DB62 /* AppDelegate.swift in Sources */,
 				BD0FE5B0286B87B10085DB62 /* SceneDelegate.swift in Sources */,
+				BD246600286CD97D0022D9EA /* FoodTrackerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
