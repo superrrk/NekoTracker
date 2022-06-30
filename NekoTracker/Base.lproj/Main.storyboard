@@ -101,7 +101,6 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oqn-Iw-s2R">
                                 <rect key="frame" x="-69" y="0.0" width="552" height="523"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="image">modern-speech-bubble-frame-for-comic-text-isolated-white-background-empty-outline-bubble-for-speech-text-dialog-empty-cloud-cartoon-box-free-vector-removebg-preview</string>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Do-hc-Arj">
                                 <rect key="frame" x="100" y="632" width="214" height="53"/>
@@ -352,6 +351,18 @@
                                 <color key="textColor" red="0.1686274707" green="0.2117646933" blue="0.109803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPu-Jj-XB5">
+                                <rect key="frame" x="141" y="831" width="132" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76072518680000001" green="0.82401221560000004" blue="0.63541654049999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Serving Info">
+                                    <color key="baseForegroundColor" red="0.23700986330000001" green="0.25672743059999997" blue="0.1979689775" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="iwn-Te-cAJ" kind="show" id="Hes-cT-qhB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PJO-Tl-phk"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -369,6 +380,78 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ih-wy-dck" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="679.71014492753625" y="813.61607142857144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rcW-hm-Doh">
+            <objects>
+                <viewController id="iwn-Te-cAJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OkY-mY-V6f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Serving Size Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oqy-oN-DtC">
+                                <rect key="frame" x="52" y="44" width="311" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                <color key="textColor" red="0.23700986330000001" green="0.25672743059999997" blue="0.1979689775" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTt-xx-cGZ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="649"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Grains:
+1 slice whole-wheat bread
+1 ounce dry whole-grain cereal
+1/2 cup cooked cereal, rice or pasta (preferably whole grain)
+Vegetables:
+1 cup raw leafy green vegetable
+1/2 cup cut-up raw or cooked vegetables
+1/2 cup (4 fluid ounces) low-sodium vegetable juice
+Fruits:
+1 medium fruit
+1/4 cup dried fruit
+1/2 cup fresh, frozen or canned fruit
+1/2 cup (4 fluid ounces) 100% fruit juice
+Dairy:
+1 cup (8 fluid ounces) low-fat or fat-free milk
+1 cup low-fat or fat-free yogurt
+1 1/2 ounces low-fat or fat-free cheese
+Protein:
+1 ounce cooked lean meat, skinless poultry or fish
+1 egg
+2 egg whites</mutableString>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.23700986330000001" green="0.25672743059999997" blue="0.1979689775" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*note that this is for the average nutrition info for women and may vary with each person" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="147-vV-ZkU">
+                                <rect key="frame" x="0.0" y="715" width="414" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <color key="textColor" red="0.1686274707" green="0.2117646933" blue="0.109803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wq2-cE-fuQ">
+                                <rect key="frame" x="167" y="793" width="81" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76072518680000001" green="0.82401221560000004" blue="0.63541654049999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back">
+                                    <color key="baseForegroundColor" red="0.206775761" green="0.2239780619" blue="0.17271511580000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Ko1-z6-Cx6" kind="show" id="nwQ-43-f8p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0Rk-V2-ktN"/>
+                        <color key="backgroundColor" red="0.99215686319999996" green="0.98039215800000001" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jkw-IZ-Q4n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uBP-gN-nqd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="649.27536231884062" y="1507.3660714285713"/>
         </scene>
         <!--Water View Controller-->
         <scene sceneID="qBI-Xg-gEr">
@@ -439,7 +522,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jtd-jL-CJ5"/>
-                        <color key="backgroundColor" red="0.85429056022185068" green="0.94168550679177954" blue="0.93396038166627615" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.99215686319999996" green="0.98039215800000001" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="UW0-oT-Swk"/>
                     <connections>
@@ -646,10 +729,10 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="3pb-Yd-yGT"/>
-        <segue reference="c6P-Jf-Bjf"/>
+        <segue reference="nm4-zZ-Jzs"/>
         <segue reference="G5k-ff-HnV"/>
-        <segue reference="2vm-fw-72a"/>
-        <segue reference="XsM-bh-s8C"/>
+        <segue reference="nwQ-43-f8p"/>
+        <segue reference="EeA-qZ-I6r"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="dairy" width="500" height="500"/>
@@ -657,9 +740,6 @@
         <image name="glass-of-water" width="256" height="256"/>
         <image name="grain" width="500" height="500"/>
         <image name="image-removebg-preview (1)" width="500" height="485"/>
-        <image width="500" height="500">
-            <string key="name">modern-speech-bubble-frame-for-comic-text-isolated-white-background-empty-outline-bubble-for-speech-text-dialog-empty-cloud-cartoon-box-free-vector-removebg-preview</string>
-        </image>
         <image name="period" width="500" height="500"/>
         <image name="protein" width="500" height="500"/>
         <image name="veg" width="500" height="500"/>
