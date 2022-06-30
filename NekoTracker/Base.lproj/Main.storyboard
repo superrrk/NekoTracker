@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -390,42 +389,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Serving Size Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oqy-oN-DtC">
-                                <rect key="frame" x="52" y="44" width="311" height="52"/>
+                                <rect key="frame" x="52" y="20" width="311" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                 <color key="textColor" red="0.23700986330000001" green="0.25672743059999997" blue="0.1979689775" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTt-xx-cGZ">
-                                <rect key="frame" x="0.0" y="88" width="414" height="649"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Grains:
-1 slice whole-wheat bread
-1 ounce dry whole-grain cereal
-1/2 cup cooked cereal, rice or pasta (preferably whole grain)
-Vegetables:
-1 cup raw leafy green vegetable
-1/2 cup cut-up raw or cooked vegetables
-1/2 cup (4 fluid ounces) low-sodium vegetable juice
-Fruits:
-1 medium fruit
-1/4 cup dried fruit
-1/2 cup fresh, frozen or canned fruit
-1/2 cup (4 fluid ounces) 100% fruit juice
-Dairy:
-1 cup (8 fluid ounces) low-fat or fat-free milk
-1 cup low-fat or fat-free yogurt
-1 1/2 ounces low-fat or fat-free cheese
-Protein:
-1 ounce cooked lean meat, skinless poultry or fish
-1 egg
-2 egg whites</mutableString>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
-                                <color key="textColor" red="0.23700986330000001" green="0.25672743059999997" blue="0.1979689775" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*note that this is for the average nutrition info for women and may vary with each person" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="147-vV-ZkU">
-                                <rect key="frame" x="0.0" y="715" width="414" height="70"/>
+                                <rect key="frame" x="0.0" y="729" width="414" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 <color key="textColor" red="0.1686274707" green="0.2117646933" blue="0.109803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -443,6 +414,34 @@ Protein:
                                     <segue destination="Ko1-z6-Cx6" kind="show" id="nwQ-43-f8p"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTt-xx-cGZ">
+                                <rect key="frame" x="0.0" y="58" width="414" height="692"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Grains:
+1 slice whole-wheat bread
+1 ounce dry whole-grain cereal
+1/2 cup cooked cereal, rice or pasta (preferably whole grain)
+ Vegetables:
+1 cup raw leafy green vegetable
+1/2 cup cut-up raw or cooked vegetables
+1/2 cup (4 fluid ounces) low-sodium vegetable juice
+ Fruits:
+1 medium fruit
+1/4 cup dried fruit
+1/2 cup fresh, frozen or canned fruit
+1/2 cup (4 fluid ounces) 100% fruit juice
+ Dairy:
+1 cup (8 fluid ounces) low-fat or fat-free milk
+1 cup low-fat or fat-free yogurt
+1 1/2 ounces low-fat or fat-free cheese
+ Protein:
+1 ounce cooked lean meat, skinless poultry or fish
+1 egg
+2 egg whites</mutableString>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="textColor" red="0.23700986330000001" green="0.25672743059999997" blue="0.1979689775" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Rk-V2-ktN"/>
                         <color key="backgroundColor" red="0.99215686319999996" green="0.98039215800000001" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -452,6 +451,52 @@ Protein:
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uBP-gN-nqd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="649.27536231884062" y="1507.3660714285713"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fKL-zA-OpR">
+            <objects>
+                <viewController id="LEk-wV-0by" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UlQ-VP-DS4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sleep Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6Z-4Y-npg">
+                                <rect key="frame" x="115" y="64" width="185" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                <color key="textColor" red="0.33623907095483674" green="0.17753978173100474" blue="0.44487847222222221" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nK-ao-YHg">
+                                <rect key="frame" x="1" y="155" width="414" height="438"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">The amount of sleep a person needs varies by age, pregnancy, and previous sleep deprivation
+ ~13-18 yr olds need 8-10 hrs every night ~Adults need 8 hrs or more  Tips: -A schedule is crucial to sleep quality.  -If you're still awake after 20 min of lying in bed, get up and read to relax. -Many forms of nicotine increases difficulty to sleep. -Limit daytime naps as to avoid disrupting your sleep schedule</mutableString>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.336239071" green="0.17753978170000001" blue="0.44487847219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUb-hG-D0u">
+                                <rect key="frame" x="167" y="781" width="80" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86862403098428509" green="0.7558504280895707" blue="0.94779829545454541" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Back">
+                                    <color key="baseForegroundColor" red="0.40802822614573925" green="0.3241949715130073" blue="0.44955413510101006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="wEf-rh-Y8q" kind="show" id="o2h-kZ-AJn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MKp-Lv-ubw"/>
+                        <color key="backgroundColor" red="0.99215686319999996" green="0.98039215800000001" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DPp-So-xtf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LGN-sY-j8v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1989.8550724637682" y="1485.9375"/>
         </scene>
         <!--Water View Controller-->
         <scene sceneID="qBI-Xg-gEr">
@@ -545,7 +590,7 @@ Protein:
                                 <rect key="frame" x="138" y="57" width="139" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="50"/>
-                                <color key="textColor" red="0.1686274707" green="0.2117646933" blue="0.109803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.36470589040000001" green="0.2117646933" blue="0.46274507050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="RHB-t1-3ZQ">
@@ -593,9 +638,21 @@ Protein:
                                     <segue destination="BAi-R8-v4O" kind="show" id="ok0-2e-K7j"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZo-Kh-hc5">
+                                <rect key="frame" x="155" y="831" width="105" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86862403099999996" green="0.75585042810000003" blue="0.94779829550000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sleep Info">
+                                    <color key="baseForegroundColor" red="0.36470589040000001" green="0.2117646933" blue="0.46274507050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="LEk-wV-0by" kind="show" id="rgk-jP-hDU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uF7-S1-LBW"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.99215686319999996" green="0.98039215800000001" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="WQv-r0-foe"/>
                 </viewController>
@@ -611,13 +668,6 @@ Protein:
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menstrual Cycle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZL-O0-cX6">
-                                <rect key="frame" x="130" y="74" width="155" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="period" translatesAutoresizingMaskIntoConstraints="NO" id="Ex9-mu-tII">
                                 <rect key="frame" x="115" y="140" width="184" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -710,9 +760,16 @@ Protein:
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menstrual Cycle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZL-O0-cX6">
+                                <rect key="frame" x="75" y="67" width="275" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FRi-fg-pvV"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.99215686319999996" green="0.98039215800000001" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="E6U-xx-68D"/>
                     <connections>
@@ -728,11 +785,12 @@ Protein:
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3pb-Yd-yGT"/>
-        <segue reference="nm4-zZ-Jzs"/>
-        <segue reference="G5k-ff-HnV"/>
+        <segue reference="rgk-jP-hDU"/>
+        <segue reference="1ru-Mq-6GU"/>
+        <segue reference="o2h-kZ-AJn"/>
+        <segue reference="tcQ-Xt-rMO"/>
         <segue reference="nwQ-43-f8p"/>
-        <segue reference="EeA-qZ-I6r"/>
+        <segue reference="ok0-2e-K7j"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="dairy" width="500" height="500"/>
@@ -743,8 +801,5 @@ Protein:
         <image name="period" width="500" height="500"/>
         <image name="protein" width="500" height="500"/>
         <image name="veg" width="500" height="500"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
