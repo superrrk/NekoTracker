@@ -98,8 +98,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oqn-Iw-s2R">
+                                <rect key="frame" x="-69" y="0.0" width="552" height="523"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="image">modern-speech-bubble-frame-for-comic-text-isolated-white-background-empty-outline-bubble-for-speech-text-dialog-empty-cloud-cartoon-box-free-vector-removebg-preview</string>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Do-hc-Arj">
-                                <rect key="frame" x="100" y="601" width="214" height="53"/>
+                                <rect key="frame" x="100" y="632" width="214" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Water Intake" cornerStyle="large">
@@ -112,12 +117,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVP-Jz-Cs9">
-                                <rect key="frame" x="100" y="540" width="214" height="53"/>
+                                <rect key="frame" x="100" y="571" width="214" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Food Intake" cornerStyle="large">
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
-                                    <color key="baseBackgroundColor" red="0.1176470518" green="0.2117646933" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.11764705882352941" green="0.21176470588235294" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTappedFood:" destination="tW5-ku-Ptz" eventType="touchUpInside" id="4Li-6Z-ZLj"/>
@@ -126,7 +131,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nni-70-sQD">
-                                <rect key="frame" x="100" y="662" width="214" height="53"/>
+                                <rect key="frame" x="100" y="693" width="214" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sleep Cycle" cornerStyle="large">
@@ -147,12 +152,8 @@
                                 <color key="textColor" red="0.1176470518" green="0.2117646933" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image-removebg-preview (1)" translatesAutoresizingMaskIntoConstraints="NO" id="GbV-Au-LG6">
-                                <rect key="frame" x="78" y="305" width="246" height="207"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDN-bI-Ufw">
-                                <rect key="frame" x="100" y="723" width="214" height="53"/>
+                                <rect key="frame" x="100" y="754" width="214" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Menstrual Cycle" cornerStyle="large">
@@ -170,12 +171,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                <buttonConfiguration key="configuration" style="filled" title="Button" cornerStyle="capsule">
                                     <color key="baseBackgroundColor" red="0.95686274770000002" green="0.72156864399999998" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Hello _____! My name is _____. &quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AO-5x-LH2">
-                                <rect key="frame" x="57" y="153" width="300" height="144"/>
+                                <rect key="frame" x="35" y="171" width="317" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
@@ -184,6 +185,11 @@
                                 <color key="shadowColor" red="0.95686274770000002" green="0.72156864399999998" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <size key="shadowOffset" width="-3" height="2"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image-removebg-preview (1)" translatesAutoresizingMaskIntoConstraints="NO" id="GbV-Au-LG6">
+                                <rect key="frame" x="35" y="345" width="246" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cer-PW-LNM"/>
                         <color key="backgroundColor" red="0.99215686319999996" green="0.98431372640000003" blue="0.89019608500000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -643,7 +649,7 @@
         <segue reference="c6P-Jf-Bjf"/>
         <segue reference="G5k-ff-HnV"/>
         <segue reference="2vm-fw-72a"/>
-        <segue reference="2hW-Xp-aec"/>
+        <segue reference="XsM-bh-s8C"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="dairy" width="500" height="500"/>
@@ -651,6 +657,9 @@
         <image name="glass-of-water" width="256" height="256"/>
         <image name="grain" width="500" height="500"/>
         <image name="image-removebg-preview (1)" width="500" height="485"/>
+        <image width="500" height="500">
+            <string key="name">modern-speech-bubble-frame-for-comic-text-isolated-white-background-empty-outline-bubble-for-speech-text-dialog-empty-cloud-cartoon-box-free-vector-removebg-preview</string>
+        </image>
         <image name="period" width="500" height="500"/>
         <image name="protein" width="500" height="500"/>
         <image name="veg" width="500" height="500"/>
