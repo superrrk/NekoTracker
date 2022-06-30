@@ -16,6 +16,7 @@
 		BD0FE5BD286B87B20085DB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0FE5BB286B87B20085DB62 /* LaunchScreen.storyboard */; };
 		BD0FE5C5286B955B0085DB62 /* homeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0FE5C4286B955B0085DB62 /* homeScreenViewController.swift */; };
 		BD246600286CD97D0022D9EA /* FoodTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2465FF286CD97D0022D9EA /* FoodTrackerViewController.swift */; };
+		BD4FB279286DEEF900245C5E /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FB278286DEEF900245C5E /* WaterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BD0FE5BE286B87B20085DB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD0FE5C4286B955B0085DB62 /* homeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreenViewController.swift; sourceTree = "<group>"; };
 		BD2465FF286CD97D0022D9EA /* FoodTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerViewController.swift; sourceTree = "<group>"; };
+		BD4FB278286DEEF900245C5E /* WaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		BD0FE5A1286B87B10085DB62 = {
 			isa = PBXGroup;
 			children = (
+				BD4FB278286DEEF900245C5E /* WaterViewController.swift */,
 				BD0FE5AC286B87B10085DB62 /* NekoTracker */,
 				BD0FE5AB286B87B10085DB62 /* Products */,
 			);
@@ -160,6 +163,7 @@
 				BD0FE5B8286B87B10085DB62 /* NekoTracker.xcdatamodeld in Sources */,
 				BD0FE5AE286B87B10085DB62 /* AppDelegate.swift in Sources */,
 				BD0FE5B0286B87B10085DB62 /* SceneDelegate.swift in Sources */,
+				BD4FB279286DEEF900245C5E /* WaterViewController.swift in Sources */,
 				BD246600286CD97D0022D9EA /* FoodTrackerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
