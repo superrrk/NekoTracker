@@ -45,9 +45,6 @@
                                 <color key="textColor" red="0.41176474089999998" green="0.34901961679999999" blue="0.3058823645" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" textContentType="name"/>
-                                <connections>
-                                    <action selector="nameTextField:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Kbn-Ft-RNR"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjt-YH-Dtd">
                                 <rect key="frame" x="225" y="666" width="127" height="47"/>
@@ -60,7 +57,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="nextButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T5Y-84-3Kw"/>
-                                    <segue destination="BAi-R8-v4O" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="2hW-Xp-aec"/>
+                                    <segue destination="BAi-R8-v4O" kind="presentation" identifier="goToNext" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="2hW-Xp-aec"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Pet's Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vuO-M1-RQV">
@@ -71,9 +68,6 @@
                                 <color key="textColor" red="0.1686274707" green="0.2117646933" blue="0.109803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" textContentType="name"/>
-                                <connections>
-                                    <action selector="petNameTextField:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="g5e-bj-6Y0"/>
-                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NekoTracker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXY-Em-4RC">
                                 <rect key="frame" x="85" y="239" width="287" height="60"/>
@@ -88,15 +82,13 @@
                         <color key="tintColor" red="0.1338868772" green="0.33333334329999997" blue="0.079539851039999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="brandLabel" destination="jXY-Em-4RC" id="19l-0Q-blC"/>
-                        <outlet property="catchPhraseLabel" destination="but-AM-Ya8" id="zDl-aa-X4h"/>
-                        <outlet property="nameInputLabel" destination="b9q-jH-Ypu" id="Oua-aV-Hr1"/>
-                        <outlet property="welcomeLabel" destination="DAf-NS-J5h" id="eny-bx-Lb0"/>
+                        <outlet property="nameTextField" destination="Szn-nU-1B8" id="W7D-Wo-r9R"/>
+                        <outlet property="petNameTextField" destination="vuO-M1-RQV" id="E9T-en-y1h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
+            <point key="canvasLocation" x="-126" y="70"/>
         </scene>
         <!--Home Screen View Controller-->
         <scene sceneID="f0G-mQ-PWL">
@@ -158,13 +150,6 @@
                                 <rect key="frame" x="78" y="305" width="246" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Hello _____! My name is _____. &quot;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AO-5x-LH2">
-                                <rect key="frame" x="78" y="177" width="268" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDN-bI-Ufw">
                                 <rect key="frame" x="100" y="723" width="214" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -179,6 +164,13 @@
                                     <segue destination="1N5-4j-oet" kind="show" id="3pb-Yd-yGT"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Hello _____! My name is _____. &quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AO-5x-LH2">
+                                <rect key="frame" x="59" y="152" width="296" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cer-PW-LNM"/>
                         <color key="backgroundColor" red="0.99215686319999996" green="0.98431372640000003" blue="0.89019608500000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -193,7 +185,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AtF-xn-5v0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="tW5-ku-Ptz" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="754" y="70"/>
+            <point key="canvasLocation" x="753.62318840579712" y="69.642857142857139"/>
         </scene>
         <!--Food Tracker View Controller-->
         <scene sceneID="HdW-WS-w3W">
@@ -634,11 +626,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1ru-Mq-6GU"/>
+        <segue reference="3pb-Yd-yGT"/>
         <segue reference="c6P-Jf-Bjf"/>
-        <segue reference="tcQ-Xt-rMO"/>
+        <segue reference="G5k-ff-HnV"/>
         <segue reference="2vm-fw-72a"/>
-        <segue reference="ok0-2e-K7j"/>
+        <segue reference="2hW-Xp-aec"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="dairy" width="500" height="500"/>

@@ -9,26 +9,29 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet weak var nameTextField: UITextField!
     
-    @IBOutlet weak var brandLabel: UILabel!
+    @IBOutlet weak var petNameTextField: UITextField!
     
-    @IBOutlet weak var catchPhraseLabel: UILabel!
-    @IBOutlet weak var nameInputLabel: UILabel!
-    @IBOutlet weak var petNameInputLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-
-    }
-    @IBAction func nameTextField(_ sender: Any) {
     }
     
-    @IBAction func petNameTextField(_ sender: Any) {
-    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToNext" {
+            let destinationVC = segue.destination as? homeScreenViewController
+            if let name = nameTextField.text {
+                destinationVC?.name = name
+                }
+            if let petName = petNameTextField.text {
+                destinationVC?.petName  = petName
+            }
+            }
+        }
+    
     @IBAction func nextButtonTapped(_ sender: Any) {
        
+        performSegue(withIdentifier: "goToNext", sender: self)
     }
 }
-    
-

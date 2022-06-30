@@ -12,11 +12,15 @@ class homeScreenViewController: UIViewController {
     // ---------- labels --------------------------
     @IBOutlet weak var imageViewCharacter: UIImageView!
     @IBOutlet weak var logoNamePlaceholder: UILabel!
+    var name : String = ""
+    var petName : String = ""
     
     @IBOutlet weak var messagePlaceholder: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        messagePlaceholder.text = "Hi, \(name)! My name is \(petName)."
 
         // Do any additional setup after loading the view.
     }
