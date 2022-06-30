@@ -104,7 +104,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Water Intake" cornerStyle="large">
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
-                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.42352938649999999" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.1176470518" green="0.2117646933" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTappedWater:" destination="tW5-ku-Ptz" eventType="touchUpInside" id="ixv-aV-uzk"/>
@@ -117,7 +117,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Food Intake" cornerStyle="large">
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
-                                    <color key="baseBackgroundColor" red="0.38823530080000002" green="0.42352938649999999" blue="0.24313727020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.1176470518" green="0.2117646933" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTappedFood:" destination="tW5-ku-Ptz" eventType="touchUpInside" id="4Li-6Z-ZLj"/>
@@ -132,7 +132,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Sleep Cycle" cornerStyle="large">
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.42352938649999999" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.1176470518" green="0.2117646933" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTappedSleep:" destination="tW5-ku-Ptz" eventType="touchUpInside" id="Hw8-wc-Zue"/>
@@ -140,10 +140,11 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NekoTracker" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THp-5s-n9R">
-                                <rect key="frame" x="73" y="86" width="257" height="70"/>
+                                <rect key="frame" x="35" y="77" width="345" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="43"/>
-                                <color key="textColor" red="0.1686274707" green="0.2117646933" blue="0.109803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="51"/>
+                                <color key="textColor" red="0.1176470518" green="0.2117646933" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image-removebg-preview (1)" translatesAutoresizingMaskIntoConstraints="NO" id="GbV-Au-LG6">
@@ -157,19 +158,31 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Menstrual Cycle" cornerStyle="large">
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.38431376220000002" green="0.42352938649999999" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.1176470518" green="0.2117646933" blue="0.15686275059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonTappedMenstrual:" destination="tW5-ku-Ptz" eventType="touchUpInside" id="QKf-LY-nw8"/>
                                     <segue destination="1N5-4j-oet" kind="show" id="3pb-Yd-yGT"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Hello _____! My name is _____. &quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AO-5x-LH2">
-                                <rect key="frame" x="59" y="152" width="296" height="169"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4S-H2-eiY">
+                                <rect key="frame" x="20" y="38" width="67" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                    <color key="baseBackgroundColor" red="0.95686274770000002" green="0.72156864399999998" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Hello _____! My name is _____. &quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AO-5x-LH2">
+                                <rect key="frame" x="57" y="153" width="300" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.95686274770000002" green="0.72156864399999998" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="-3" height="2"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cer-PW-LNM"/>
