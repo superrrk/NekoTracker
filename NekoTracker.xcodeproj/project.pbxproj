@@ -17,6 +17,9 @@
 		BD0FE5C5286B955B0085DB62 /* homeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0FE5C4286B955B0085DB62 /* homeScreenViewController.swift */; };
 		BD246600286CD97D0022D9EA /* FoodTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2465FF286CD97D0022D9EA /* FoodTrackerViewController.swift */; };
 		BD4FB279286DEEF900245C5E /* WaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FB278286DEEF900245C5E /* WaterViewController.swift */; };
+		BD5DCCE1286F4BDD0011260A /* sleepDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5DCCE0286F4BDD0011260A /* sleepDataTableViewController.swift */; };
+		BD5DCCE5286F4CD50011260A /* sleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5DCCE4286F4CD50011260A /* sleepViewController.swift */; };
+		BD5DCCE7286F4D8C0011260A /* SleepLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5DCCE6286F4D8C0011260A /* SleepLog.swift */; };
 		BD783C40286DFB8300095A67 /* periodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD783C3F286DFB8300095A67 /* periodViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +36,10 @@
 		BD0FE5C4286B955B0085DB62 /* homeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreenViewController.swift; sourceTree = "<group>"; };
 		BD2465FF286CD97D0022D9EA /* FoodTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerViewController.swift; sourceTree = "<group>"; };
 		BD4FB278286DEEF900245C5E /* WaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterViewController.swift; sourceTree = "<group>"; };
-		BD783C3F286DFB8300095A67 /* periodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = periodViewController.swift; path = NekoTracker/periodViewController.swift; sourceTree = "<group>"; };
+		BD5DCCE0286F4BDD0011260A /* sleepDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sleepDataTableViewController.swift; sourceTree = "<group>"; };
+		BD5DCCE4286F4CD50011260A /* sleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sleepViewController.swift; sourceTree = "<group>"; };
+		BD5DCCE6286F4D8C0011260A /* SleepLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepLog.swift; sourceTree = "<group>"; };
+		BD783C3F286DFB8300095A67 /* periodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = periodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +56,6 @@
 		BD0FE5A1286B87B10085DB62 = {
 			isa = PBXGroup;
 			children = (
-				BD783C3F286DFB8300095A67 /* periodViewController.swift */,
-				BD4FB278286DEEF900245C5E /* WaterViewController.swift */,
 				BD0FE5AC286B87B10085DB62 /* NekoTracker */,
 				BD0FE5AB286B87B10085DB62 /* Products */,
 			);
@@ -68,9 +72,14 @@
 		BD0FE5AC286B87B10085DB62 /* NekoTracker */ = {
 			isa = PBXGroup;
 			children = (
+				BD5DCCE4286F4CD50011260A /* sleepViewController.swift */,
+				BD5DCCE0286F4BDD0011260A /* sleepDataTableViewController.swift */,
+				BD783C3F286DFB8300095A67 /* periodViewController.swift */,
+				BD4FB278286DEEF900245C5E /* WaterViewController.swift */,
 				BD0FE5C7286B96AE0085DB62 /* ViewControllers */,
 				BD0FE5AD286B87B10085DB62 /* AppDelegate.swift */,
 				BD0FE5B3286B87B10085DB62 /* Main.storyboard */,
+				BD5DCCE6286F4D8C0011260A /* SleepLog.swift */,
 				BD2465FF286CD97D0022D9EA /* FoodTrackerViewController.swift */,
 				BD0FE5AF286B87B10085DB62 /* SceneDelegate.swift */,
 				BD0FE5B9286B87B20085DB62 /* Assets.xcassets */,
@@ -167,7 +176,10 @@
 				BD0FE5AE286B87B10085DB62 /* AppDelegate.swift in Sources */,
 				BD0FE5B0286B87B10085DB62 /* SceneDelegate.swift in Sources */,
 				BD4FB279286DEEF900245C5E /* WaterViewController.swift in Sources */,
+				BD5DCCE7286F4D8C0011260A /* SleepLog.swift in Sources */,
 				BD246600286CD97D0022D9EA /* FoodTrackerViewController.swift in Sources */,
+				BD5DCCE1286F4BDD0011260A /* sleepDataTableViewController.swift in Sources */,
+				BD5DCCE5286F4CD50011260A /* sleepViewController.swift in Sources */,
 				BD783C40286DFB8300095A67 /* periodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
