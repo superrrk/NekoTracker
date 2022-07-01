@@ -98,16 +98,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Hello _____! My name is _____. &quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AO-5x-LH2">
-                                <rect key="frame" x="49" y="171" width="317" height="147"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a8L-Lr-uyY">
+                                <rect key="frame" x="49" y="56" width="317" height="435"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.95686274770000002" green="0.72156864399999998" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <size key="shadowOffset" width="-3" height="2"/>
-                            </label>
+                                <string key="image">modern-speech-bubble-frame-for-comic-text-isolated-white-background-empty-outline-bubble-for-speech-text-dialog-empty-cloud-cartoon-box-free-vector-removebg-preview</string>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Do-hc-Arj">
                                 <rect key="frame" x="100" y="630" width="214" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -176,6 +171,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Hello _____! My name is _____. &quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AO-5x-LH2">
+                                <rect key="frame" x="127" y="317" width="317" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.95686274770000002" green="0.72156864399999998" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="-3" height="2"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cer-PW-LNM"/>
                         <color key="backgroundColor" red="0.99215686319999996" green="0.98431372640000003" blue="0.89019608500000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -561,7 +566,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wq-Rq-Vbr">
                                 <rect key="frame" x="51" y="172" width="313" height="498"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">
+                                <string key="text">
 
 Flow occurs every 27-35 days but avg is 28 days
 Flow lasts 3-8 days, but 5 is the avg length
@@ -581,7 +586,7 @@ Sleep Info
 13 to 18 years 8 to 10 hours per 24 hours
 Adults 7 or more hours a night
 *Sleep deprivation, pregnancy, and aging can alter the amount of sleep needed
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <color key="textColor" red="0.70588237050000002" green="0.231372565" blue="0.1843137443" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -997,12 +1002,11 @@ Adults 7 or more hours a night
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="iAx-jS-1cX"/>
-        <segue reference="pcI-um-5NR"/>
-        <segue reference="Yqa-o0-I8Q"/>
-        <segue reference="tcQ-Xt-rMO"/>
+        <segue reference="3pb-Yd-yGT"/>
+        <segue reference="c6P-Jf-Bjf"/>
+        <segue reference="G5k-ff-HnV"/>
         <segue reference="DKw-SQ-2Pt"/>
-        <segue reference="nwQ-43-f8p"/>
+        <segue reference="2vm-fw-72a"/>
         <segue reference="Q3p-Mw-j79"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1011,6 +1015,9 @@ Adults 7 or more hours a night
         <image name="glass-of-water" width="256" height="256"/>
         <image name="grain" width="500" height="500"/>
         <image name="image-removebg-preview (1)" width="500" height="485"/>
+        <image width="500" height="500">
+            <string key="name">modern-speech-bubble-frame-for-comic-text-isolated-white-background-empty-outline-bubble-for-speech-text-dialog-empty-cloud-cartoon-box-free-vector-removebg-preview</string>
+        </image>
         <image name="moon" width="200" height="200"/>
         <image name="moon(1)" width="200" height="200"/>
         <image name="period" width="500" height="500"/>
