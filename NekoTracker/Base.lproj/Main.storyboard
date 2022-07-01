@@ -99,7 +99,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Do-hc-Arj">
-                                <rect key="frame" x="100" y="632" width="214" height="53"/>
+                                <rect key="frame" x="100" y="630" width="214" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Water Intake" cornerStyle="large">
@@ -112,7 +112,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVP-Jz-Cs9">
-                                <rect key="frame" x="100" y="571" width="214" height="53"/>
+                                <rect key="frame" x="100" y="569" width="214" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Food Intake" cornerStyle="large">
@@ -126,7 +126,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nni-70-sQD">
-                                <rect key="frame" x="100" y="693" width="214" height="53"/>
+                                <rect key="frame" x="100" y="691" width="214" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sleep Cycle" cornerStyle="large">
@@ -148,7 +148,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDN-bI-Ufw">
-                                <rect key="frame" x="100" y="754" width="214" height="53"/>
+                                <rect key="frame" x="100" y="752" width="214" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Menstrual Cycle" cornerStyle="large">
@@ -162,7 +162,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Hello _____! My name is _____. &quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AO-5x-LH2">
-                                <rect key="frame" x="35" y="171" width="317" height="144"/>
+                                <rect key="frame" x="49" y="171" width="317" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
@@ -175,6 +175,11 @@
                                 <rect key="frame" x="35" y="345" width="246" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ysz-aT-f4y">
+                                <rect key="frame" x="-75" y="-43" width="564" height="604"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="image">modern-speech-bubble-frame-for-comic-text-isolated-white-background-empty-outline-bubble-for-speech-text-dialog-empty-cloud-cartoon-box-free-vector-removebg-preview</string>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cer-PW-LNM"/>
@@ -919,12 +924,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Hes-cT-qhB"/>
         <segue reference="3pb-Yd-yGT"/>
-        <segue reference="o2h-kZ-AJn"/>
+        <segue reference="c6P-Jf-Bjf"/>
         <segue reference="58y-hc-ajS"/>
         <segue reference="DKw-SQ-2Pt"/>
-        <segue reference="nwQ-43-f8p"/>
+        <segue reference="2vm-fw-72a"/>
         <segue reference="u4s-g6-adD"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -933,6 +937,9 @@
         <image name="glass-of-water" width="256" height="256"/>
         <image name="grain" width="500" height="500"/>
         <image name="image-removebg-preview (1)" width="500" height="485"/>
+        <image width="500" height="500">
+            <string key="name">modern-speech-bubble-frame-for-comic-text-isolated-white-background-empty-outline-bubble-for-speech-text-dialog-empty-cloud-cartoon-box-free-vector-removebg-preview</string>
+        </image>
         <image name="moon" width="200" height="200"/>
         <image name="moon(1)" width="200" height="200"/>
         <image name="period" width="500" height="500"/>
